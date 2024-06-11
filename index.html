@@ -257,11 +257,13 @@ I used templatemo's Reflux Template(tm-531-reflux) for this page, and I'm gratef
           <div class="row">
             <div class="isotope-wrapper">
               <form class="isotope-toolbar">
+                
+                <!-- isotope-wrapper Workaround, Start-->
+
                 <label
                   ><input
                     type="radio"
                     data-type="*"
-                    checked=""
                     name="isotope-filter"
                   />
                   <span>All</span></label
@@ -270,10 +272,23 @@ I used templatemo's Reflux Template(tm-531-reflux) for this page, and I'm gratef
                   ><input
                     type="radio"
                     data-type="MLI"
+                    checked=""
                     name="isotope-filter"
                   />
                   <span>Multilevel Inverter</span></label
                 >
+
+                <label>
+                  <input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  </label>
+
+                  <!-- isotope-wrapper Workaround, End-->
+                   
                 <label
                   ><input
                     type="radio"
