@@ -505,7 +505,7 @@ section.my-work .section-heading {
 }
 
 .isotope-box {
-    position: sticky;
+    position: relative;
     width: 100%;
 }
 
@@ -581,7 +581,7 @@ figure.snip1321 span {
     color: #7a7a7a;
 }
 figure.snip1321 i {
-  position: sticky!important;
+  position: relative!important;
   font-size: 18px;
   background-color: #a43f49;
   width: 40px;
